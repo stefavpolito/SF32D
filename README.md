@@ -18,11 +18,11 @@ This package realizes the fusion of data from LiDAR and Yolo v7 detection. The s
 Dependencies
 This package works in ROS1 environment, and it subscribes to sensor_msgs::PointCloud2 and vision_msgs::Detection2DArray message types, and publishes pcl::PointCloud<pcl::PointXYZRGB> and sensor_msgs::Image message types.
 Required libraries:
-    - sensor_msgs https://github.com/ros/common_msgs
-    - vision_msgs https://github.com/ros-perception/vision_msgs
-    - PCL https://github.com/ros-perception/perception_pcl
-    - OpenCV and cv_bridge https://github.com/ros-perception/vision_opencv
-    - message_filters https://github.com/ros/ros_comm
+- sensor_msgs https://github.com/ros/common_msgs
+- vision_msgs https://github.com/ros-perception/vision_msgs
+- PCL https://github.com/ros-perception/perception_pcl
+- OpenCV and cv_bridge https://github.com/ros-perception/vision_opencv
+- message_filters https://github.com/ros/ros_comm
 
 Quick start
 1.	First, we need to run the roscore to start the ROS1 service, and run rviz to visualize the data that will be published by the sensors.
